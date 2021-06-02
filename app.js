@@ -52,7 +52,7 @@ AFRAME.registerComponent('information', {
         sol.addEventListener('click', () => {
             var name = "Sun"
             get_api_data(name)
-            setTimeout(() => { set_api_data("Sol", "1,989×10 30", "1,4123×10 18", "274", "7.25") }, 500)
+            setTimeout(() => { set_api_data("Sol", "1,989×10^30", "1,4123×10^18", "274", "7.25") }, 500)
             datos.object3D.visible = true
             setTimeout(() => { datos.object3D.visible = false }, 5000)
         });
@@ -60,7 +60,7 @@ AFRAME.registerComponent('information', {
         mercurio.addEventListener('click', () => {
             var name = "Mercury"
             get_api_data(name)
-            setTimeout(() => { set_api_data("Mercurio", "3,302×10 23", "6,083×10 10", "3,7", "0.03") }, 500)
+            setTimeout(() => { set_api_data("Mercurio", "3,302×10^23", "6,083×10^10", "3,7", "0.03") }, 500)
             datos.object3D.visible = true
             setTimeout(() => { datos.object3D.visible = false }, 5000)
         });
@@ -68,7 +68,7 @@ AFRAME.registerComponent('information', {
         venus.addEventListener('click', () => {
             var name = "Venus"
             get_api_data(name)
-            setTimeout(() => { set_api_data("Venus", "4,869×10 24", "9,28x10 11", "8,87", "177.36") }, 500)
+            setTimeout(() => { set_api_data("Venus", "4,869×10^24", "9,28x10^11", "8,87", "177.36") }, 500)
             datos.object3D.visible = true
             setTimeout(() => { datos.object3D.visible = false }, 5000)
         });
@@ -76,7 +76,7 @@ AFRAME.registerComponent('information', {
         tierra.addEventListener('click', () => {
             var name = "Earth"
             get_api_data(name)
-            setTimeout(() => { set_api_data("Tierra", "5,9736×10 24", "1,08321×10 12", "9,8", "23.4") }, 500)
+            setTimeout(() => { set_api_data("Tierra", "5,9736×10^24", "1,08321×10^12", "9,8", "23.4") }, 500)
             datos.object3D.visible = true
             setTimeout(() => { datos.object3D.visible = false }, 5000)
         });
@@ -84,7 +84,7 @@ AFRAME.registerComponent('information', {
         marte.addEventListener('click', () => {
             var name = "Mars"
             get_api_data(name)
-            setTimeout(() => { set_api_data("Marte", "6,4185×10 23", "1,6318×10 11", "3,72", "25.19") }, 500)
+            setTimeout(() => { set_api_data("Marte", "6,4185×10^23", "1,6318×10^11", "3,72", "25.19") }, 500)
             datos.object3D.visible = true
             setTimeout(() => { datos.object3D.visible = false }, 5000)
         });
@@ -92,7 +92,7 @@ AFRAME.registerComponent('information', {
         jupiter.addEventListener('click', () => {
             var name = "Jupiter"
             get_api_data(name)
-            setTimeout(() => { set_api_data("Jupiter", "1,899×10 27", "1,4313×10 15", "24.79", "3.12") }, 500)
+            setTimeout(() => { set_api_data("Jupiter", "1,899×10^27", "1,4313×10^15", "24.79", "3.12") }, 500)
             datos.object3D.visible = true
             setTimeout(() => { datos.object3D.visible = false }, 5000)
         });
@@ -100,7 +100,7 @@ AFRAME.registerComponent('information', {
         saturno.addEventListener('click', () => {
             var name = "Saturn"
             get_api_data(name)
-            setTimeout(() => { set_api_data("Saturno", "5,688x10 26", "8,27x10 23", "10,44", "26.73") }, 500)
+            setTimeout(() => { set_api_data("Saturno", "5,688x10^26", "8,27x10^23", "10,44", "26.73") }, 500)
             datos.object3D.visible = true
             setTimeout(() => { datos.object3D.visible = false }, 5000)
         });
@@ -108,7 +108,7 @@ AFRAME.registerComponent('information', {
         urano.addEventListener('click', () => {
             var name = "Uranus"
             get_api_data(name)
-            setTimeout(() => { set_api_data("Urano", "8,686×10 25", "6,833×10 13", "8,69", "97.77") }, 500)
+            setTimeout(() => { set_api_data("Urano", "8,686×10^25", "6,833×10^13", "8,69", "97.77") }, 500)
             datos.object3D.visible = true
             setTimeout(() => { datos.object3D.visible = false }, 5000)
         });
@@ -116,7 +116,7 @@ AFRAME.registerComponent('information', {
         neptuno.addEventListener('click', () => {
             var name = "Neptune"
             get_api_data(name)
-            setTimeout(() => { set_api_data("Neptuno", "1,024×10 26", "6,254×10 13", "11,15", "28.3") }, 500)
+            setTimeout(() => { set_api_data("Neptuno", "1,024×10^26", "6,254×10^13", "11,15", "28.3") }, 500)
             datos.object3D.visible = true
             setTimeout(() => { datos.object3D.visible = false }, 5000)
         });
