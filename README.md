@@ -1,2 +1,2 @@
 # Solar-System
-## Proyecto VR
+## Proyecto VR en A-Frame
